@@ -5,7 +5,7 @@ import RightNavbar from "./sub-components/RightNavbar";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="pr-8 pl-4">
       <div className="navbar bg-base-100">
 
         {/* Left Navbar */}
