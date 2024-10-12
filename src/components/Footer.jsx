@@ -1,11 +1,13 @@
 import React from "react";
+import { FaTwitter, FaFacebookF, FaInstagram, FaGithub  } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div>
       <div className="flex w-full flex-col">
+        
         {/* Top footer */}
-        <div className="card bg-base-200 rounded-box h-20 grid place-items-center">
+        <div className="card bg-base-200 h-20 grid place-items-center rounded-none">
           <div className="flex w-full">
             <div className="flex-grow h-20 grid pl-10 pt-4">
               <div>
@@ -33,6 +35,13 @@ const Footer = () => {
                 <br />
                 Lorem ipsum.
               </p>
+                <br/>
+                <div className="flex space-x-4">
+                <a href="https://twitter.com"><FaTwitter /></a>
+                <a href="https://facebook.com"><FaFacebookF /></a>
+                <a href="https://instagram.com"><FaInstagram /></a>
+                <a href="https://github.com"><FaGithub /></a>
+                </div>
             </aside>
             <nav>
               <h6 className="footer-title">Company</h6>
