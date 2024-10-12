@@ -17,7 +17,7 @@ const LeftNavbar = () => {
 
     {/* Brand Name */}
     <a className="btn btn-ghost text-xl lg:flex lg:items-center">
-      NiggaShop
+      ApalahShop
     </a>
 
     {/* Menu for bigger window */}
